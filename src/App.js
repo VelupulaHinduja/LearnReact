@@ -1,10 +1,10 @@
 import "./App.css";
-import MyComponent from "./Components/Greet";
+import Greet from "./Components/Greet";
 
 function App() {
 	return (
 		<div className="App">
-			<MyComponent />
+			<Greet />
 		</div>
 	);
 }

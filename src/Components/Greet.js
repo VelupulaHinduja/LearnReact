@@ -8,6 +8,6 @@ import React from "react";
 // 	);
 // }
 
-export const Greet = () => <h1>Hello Hinduja</h1>;
+const Greet = () => <h1>Hello Hinduja</h1>;
 
-// export default Greet;
+export default Greet;
