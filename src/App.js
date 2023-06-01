@@ -8,11 +8,11 @@ import Welcome from "./Components/Welcome";
 function App() {
 	return (
 		<div className="App">
-			{/* <Greet name="Hinduja" nickName="Hindu">This is a children prop</Greet> */}
+			<Greet name="Hinduja" nickName="Hindu"></Greet>
       {/* <Welcome name="Hinduja" nickName="Hindu">Children prop from class component</Welcome> */}
       {/* <Hello/> */}
       {/* <Message/> */}
-      <Counter/>
+      {/* <Counter/> */}
 		</div>
 	);
 }
