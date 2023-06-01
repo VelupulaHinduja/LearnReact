@@ -6,7 +6,7 @@ import Welcome from "./Components/Welcome";
 function App() {
 	return (
 		<div className="App">
-			<Greet name="Hinduja" nickName="Hindu"/>
+			<Greet name="Hinduja" nickName="Hindu">This is a children prop</Greet>
       {/* <Welcome/> */}
       {/* <Hello/> */}
 		</div>
