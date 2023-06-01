@@ -9,7 +9,7 @@ function App() {
 	return (
 		<div className="App">
 			<Greet name="Hinduja" nickName="Hindu"></Greet>
-      {/* <Welcome name="Hinduja" nickName="Hindu">Children prop from class component</Welcome> */}
+      <Welcome name="Hinduja" nickName="Hindu"></Welcome>
       {/* <Hello/> */}
       {/* <Message/> */}
       {/* <Counter/> */}
