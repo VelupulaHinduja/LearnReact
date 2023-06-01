@@ -5,7 +5,7 @@ function FunctionClick() {
         console.log("Button clicked")
     }
   return (
-    <button onClick={clickHandler()}>Click</button>
+    <button onClick={clickHandler}>Click</button>
   )
 }
 
