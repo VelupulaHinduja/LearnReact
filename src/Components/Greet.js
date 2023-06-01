@@ -2,7 +2,6 @@ import React from "react";
 
 const Greet = (props) => {
 	console.log(props);
-    props.nickName="Indu"
 	return (
 		<div>
 			<h1>
