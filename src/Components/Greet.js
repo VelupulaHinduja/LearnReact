@@ -1,7 +1,6 @@
 import React from "react";
 
-const Greet = props => {
-    const {name, nickName} = props
+const Greet = ({name, nickName}) => {
 	return (
 		<div>
 			<h1>
