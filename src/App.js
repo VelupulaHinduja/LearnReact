@@ -10,6 +10,7 @@ import EventBind from "./Components/EventBind";
 import ParentComponent from "./Components/ParentComponent";
 import UserGreeting from "./Components/UserGreeting";
 import NameList from "./Components/NameList";
+import StyleSheets from "./Components/StyleSheets";
 
 function App() {
 	return (
@@ -24,7 +25,8 @@ function App() {
       {/* <EventBind/> */}
       {/* <ParentComponent/> */}
       {/* <UserGreeting/> */}
-      <NameList/>
+      {/* <NameList/> */}
+      <StyleSheets/>
 		</div>
 	);
 }
