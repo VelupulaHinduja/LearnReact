@@ -11,6 +11,7 @@ import ParentComponent from "./Components/ParentComponent";
 import UserGreeting from "./Components/UserGreeting";
 import NameList from "./Components/NameList";
 import StyleSheets from "./Components/StyleSheets";
+import Inline from "./Components/Inline";
 
 function App() {
 	return (
@@ -26,7 +27,8 @@ function App() {
       {/* <ParentComponent/> */}
       {/* <UserGreeting/> */}
       {/* <NameList/> */}
-      <StyleSheets primary={true}/>
+      {/* <StyleSheets primary={true}/> */}
+      <Inline/>
 		</div>
 	);
 }
