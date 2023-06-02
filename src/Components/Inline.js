@@ -10,7 +10,6 @@ function Inline() {
 		<div>
 			<h1 style={heading}>Inline</h1>
             <h1 className="error">Error</h1>
-            <h1 className={StylesModules.success}>Success</h1>
 		</div>
 	);
 }
