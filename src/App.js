@@ -26,7 +26,7 @@ function App() {
       {/* <ParentComponent/> */}
       {/* <UserGreeting/> */}
       {/* <NameList/> */}
-      <StyleSheets/>
+      <StyleSheets primary={true}/>
 		</div>
 	);
 }
