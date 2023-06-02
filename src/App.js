@@ -30,7 +30,7 @@ function App() {
       {/* <UserGreeting/> */}
       {/* <NameList/> */}
       {/* <StyleSheets primary={true}/> */}
-      {/* <Inline/> */}
+      <Inline/>
       <h1 className="error">Error</h1>
       <h1 className={StylesModules.success}>Success</h1>
 		</div>
