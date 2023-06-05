@@ -15,6 +15,7 @@ import Inline from "./Components/Inline";
 import "./styleSheets.css"
 import StylesModules from "./styleSheets.module.css"
 import Form from "./Components/Form";
+import LifecycleA from "./Components/LifecycleA";
 
 function App() {
 	return (
@@ -34,7 +35,8 @@ function App() {
       {/* <Inline/>
       <h1 className="error">Error</h1>
       <h1 className={StylesModules.success}>Success</h1> */}
-      <Form/>
+      {/* <Form/> */}
+      <LifecycleA/>
 		</div>
 	);
 }
