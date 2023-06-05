@@ -14,6 +14,7 @@ import StyleSheets from "./Components/StyleSheets";
 import Inline from "./Components/Inline";
 import "./styleSheets.css"
 import StylesModules from "./styleSheets.module.css"
+import Form from "./Components/Form";
 
 function App() {
 	return (
@@ -30,9 +31,10 @@ function App() {
       {/* <UserGreeting/> */}
       {/* <NameList/> */}
       {/* <StyleSheets primary={true}/> */}
-      <Inline/>
+      {/* <Inline/>
       <h1 className="error">Error</h1>
-      <h1 className={StylesModules.success}>Success</h1>
+      <h1 className={StylesModules.success}>Success</h1> */}
+      <Form/>
 		</div>
 	);
 }
