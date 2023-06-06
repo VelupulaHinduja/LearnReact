@@ -12,8 +12,8 @@ import UserGreeting from "./Components/UserGreeting";
 import NameList from "./Components/NameList";
 import StyleSheets from "./Components/StyleSheets";
 import Inline from "./Components/Inline";
-import "./styleSheets.css"
-import StylesModules from "./styleSheets.module.css"
+import "./styleSheets.css";
+import StylesModules from "./styleSheets.module.css";
 import Form from "./Components/Form";
 import LifecycleA from "./Components/LifecycleA";
 import FragmentDemo from "./Components/FragmentDemo";
@@ -23,34 +23,41 @@ import RefsDemo from "./Components/RefsDemo";
 import FocusInput from "./Components/FocusInput";
 import FRParentInput from "./Components/FRParentInput";
 import PortalDemo from "./Components/PortalDemo";
+import Hero from "./Components/Hero";
+import ErrorBoundary from "./Components/ErrorBoundary";
 
 function App() {
 	return (
 		<div className="App">
 			{/* <Greet name="Hinduja" nickName="Hindu"></Greet> */}
-      {/* <Welcome name="Hinduja" nickName="Hindu"></Welcome> */}
-      {/* <Hello/> */}
-      {/* <Message/> */}
-      {/* <Counter/> */}
-      {/* <FunctionClick/> */}
-      {/* <ClassClick/> */}
-      {/* <EventBind/> */}
-      {/* <ParentComponent/> */}
-      {/* <UserGreeting/> */}
-      {/* <NameList/> */}
-      {/* <StyleSheets primary={true}/> */}
-      {/* <Inline/>
+			{/* <Welcome name="Hinduja" nickName="Hindu"></Welcome> */}
+			{/* <Hello/> */}
+			{/* <Message/> */}
+			{/* <Counter/> */}
+			{/* <FunctionClick/> */}
+			{/* <ClassClick/> */}
+			{/* <EventBind/> */}
+			{/* <ParentComponent/> */}
+			{/* <UserGreeting/> */}
+			{/* <NameList/> */}
+			{/* <StyleSheets primary={true}/> */}
+			{/* <Inline/>
       <h1 className="error">Error</h1>
       <h1 className={StylesModules.success}>Success</h1> */}
-      {/* <Form/> */}
-      {/* <LifecycleA/> */}
-      {/* <FragmentDemo/> */}
-      {/* <Table/> */}
-      {/* <ParentComp/> */}
-      {/* <RefsDemo/> */}
-      {/* <FocusInput/> */}
-      {/* <FRParentInput/> */}
-      <PortalDemo/>
+			{/* <Form/> */}
+			{/* <LifecycleA/> */}
+			{/* <FragmentDemo/> */}
+			{/* <Table/> */}
+			{/* <ParentComp/> */}
+			{/* <RefsDemo/> */}
+			{/* <FocusInput/> */}
+			{/* <FRParentInput/> */}
+			{/* <PortalDemo/> */}
+			<ErrorBoundary>
+				<Hero heroName={"John"} />
+				<Hero heroName={"Jane"} />
+				<Hero heroName={"Joker"} />
+			</ErrorBoundary>
 		</div>
 	);
 }
