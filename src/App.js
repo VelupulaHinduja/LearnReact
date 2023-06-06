@@ -27,6 +27,10 @@ import Hero from "./Components/Hero";
 import ErrorBoundary from "./Components/ErrorBoundary";
 import ClickCounter from "./Components/ClickCounter";
 import HoverCounter from "./Components/HoverCounter";
+import CounterRenderProps from "./Components/CounterRenderProps";
+import ClickCounterTwo from "./Components/ClickCounterTwo";
+import HoverCounterTwo from "./Components/HoverCounterTwo";
+import User from "./Components/User";
 
 function App() {
 	return (
@@ -64,8 +68,9 @@ function App() {
 			<ErrorBoundary>
 				<Hero heroName={"Joker"} />
 			</ErrorBoundary> */}
-      <ClickCounter name="Hinduja"/>
-      <HoverCounter/>
+			{/* <ClickCounter name="Hinduja"/>
+      <HoverCounter/> */}
+			<User render={(isLoggedIn) => (isLoggedIn ? "Hinduja" : "Guest")} />
 		</div>
 	);
 }
