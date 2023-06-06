@@ -55,7 +55,11 @@ function App() {
 			{/* <PortalDemo/> */}
 			<ErrorBoundary>
 				<Hero heroName={"John"} />
+			</ErrorBoundary>
+			<ErrorBoundary>
 				<Hero heroName={"Jane"} />
+			</ErrorBoundary>
+			<ErrorBoundary>
 				<Hero heroName={"Joker"} />
 			</ErrorBoundary>
 		</div>
