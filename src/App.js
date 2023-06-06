@@ -16,6 +16,7 @@ import "./styleSheets.css"
 import StylesModules from "./styleSheets.module.css"
 import Form from "./Components/Form";
 import LifecycleA from "./Components/LifecycleA";
+import FragmentDemo from "./Components/FragmentDemo";
 
 function App() {
 	return (
@@ -36,7 +37,8 @@ function App() {
       <h1 className="error">Error</h1>
       <h1 className={StylesModules.success}>Success</h1> */}
       {/* <Form/> */}
-      <LifecycleA/>
+      {/* <LifecycleA/> */}
+      <FragmentDemo/>
 		</div>
 	);
 }
