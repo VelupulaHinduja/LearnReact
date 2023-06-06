@@ -72,16 +72,10 @@ function App() {
 			{/* <ClickCounter name="Hinduja"/>
       <HoverCounter/> */}
 			{/* <User render={(isLoggedIn) => (isLoggedIn ? "Hinduja" : "Guest")} /> */}
-			<CounterTwo
-				render={(count, incrementCount) => {
-					<ClickCounterTwo count={count} incrementCount={incrementCount} />;
-				}}
-			></CounterTwo>
-			<CounterTwo
-				render={(count, incrementCount) => {
-					<HoverCounterTwo count={count} incrementCount={incrementCount} />;
-				}}
-			></CounterTwo>
+			<CounterTwo render={(count, incrementCount) => 
+        <ClickCounterTwo count={count} incrementCount={incrementCount} />}/>
+			<CounterTwo render={(count, incrementCount) => 
+        <HoverCounterTwo count={count} incrementCount={incrementCount} />}/>
 		</div>
 	);
 }
