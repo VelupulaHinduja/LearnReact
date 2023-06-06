@@ -20,6 +20,7 @@ import FragmentDemo from "./Components/FragmentDemo";
 import Table from "./Components/Table";
 import ParentComp from "./Components/ParentComp";
 import RefsDemo from "./Components/RefsDemo";
+import FocusInput from "./Components/FocusInput";
 
 function App() {
 	return (
@@ -44,7 +45,8 @@ function App() {
       {/* <FragmentDemo/> */}
       {/* <Table/> */}
       {/* <ParentComp/> */}
-      <RefsDemo/>
+      {/* <RefsDemo/> */}
+      <FocusInput/>
 		</div>
 	);
 }
